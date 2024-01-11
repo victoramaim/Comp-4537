@@ -1,0 +1,16 @@
+#buttonContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  button {
+    height: 5em;
+    width: 10em;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
