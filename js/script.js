@@ -15,6 +15,7 @@ class Button {
   }
 
   // Generate a random color for the button background
+  // chatGPT has been used as a reference for this function
   getRandomColor() {
     const letters = '0123456789ABCDEF';
     let color = '#';
@@ -135,6 +136,7 @@ class MemoryGame {
   }
 
   // Check if the button clicked is in the correct order
+  // chatGPT has been used as a reference for this function
   checkOrder(clickedNumber) {
       const expectedNumber = this.clickedButtons.length + 1;
 
@@ -174,6 +176,7 @@ class MemoryGame {
 }
 
 // Event listener for the DOMContentLoaded event to start the game
+// chatGPT has been used as a reference for this function
 document.addEventListener('DOMContentLoaded', function () {
   // Create input elements
   const label = document.createElement('label');
